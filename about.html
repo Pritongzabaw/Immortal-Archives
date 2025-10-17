@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diablo Immortal | About</title>
+  <link rel="stylesheet" href="css/styleshome.css">
+  <link rel="stylesheet" href="css/stylesabout.css">
+</head>
+<body>
+  <header>
+    <div class="navbar" id = "mobile-navbar">
+    <div class="nav-left logo">
+      <img src="img/Singleletterlogo.png" alt="Logo">
+      <span>IMMORTAL ARCHIVES</span>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
+      <nav>
+        <ul id="menu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <nav class="navbar" id="desktop_tablet-navbar">
+      <div class="nav-left">
+        <span class="logo-text">IMMORTAL ARCHIVES</span>
+        <img src="img/Singleletterlogo.png" alt="Diablo Icon" class="logo">
+      </div>
+      <div class="nav-right">
+        <a href="home.html">HOME</a>
+        <a href="classes.html">CLASSES</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="about.html" class="active">ABOUT</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="about-container">
+    <img src="img/LogoDi.webp" alt="Diablo Immortal Logo" class="about-logo">
+
+    <section class="about-section">
+      <h1 class="page-title">ABOUT DIABLO IMMORTAL</h1>
+      <p>
+        Diablo Immortal is a free-to-play, massively multiplayer online action role-playing game
+        developed by Blizzard Entertainment and NetEase. A mobile game in the Diablo series,
+        it is set between the events of Diablo II and Diablo III.
+      </p>
+    </section>
+
+    <section class="archives-section">
+      <h2 class="section-title">IMMORTAL ARCHIVES</h2>
+      <p>
+        Immortal Archives is a fan project that gathers information, guides, and lore for every class in Diablo Immortal.
+        Whether you're looking to master the Barbarian's raw power, the Wizard’s arcane energy, or the Necromancer’s dark magic,
+        our mission is to help every player become a legend of Sanctuary.
+      </p>
+      <p>
+        This project is built for fans by fans. We recognize the passion of the Diablo community and dedicate this page to sharing
+        strategies and content that capture the true spirit of battle.
+      </p>
+      <p class="cta">⚔️ Enter the Archives. Master your class. Conquer Sanctuary.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>FAN PROJECT © 2025 | DIABLO IMMORTAL IS PROPERTY OF BLIZZARD ENTERTAINMENT</p>
+  </footer>
+
+
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+    
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+      toggle.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diablo Immortal Archives</title>
+  <link rel="stylesheet" href="css/styleshome.css" />
+  
+</head>
+<body>
+
+  
+  <header>
+    <div class="navbar" id = "mobile-navbar">
+      <div class="nav-left logo">
+        <img src="img/Singleletterlogo.png" alt="Logo">
+        <span>IMMORTAL ARCHIVES</span>
+      </div>
+
+      <div class="menu-toggle" id="menu-toggle">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+    <nav>
+      <ul id="menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+    <div class="navbar" id="desktop_tablet-navbar">
+      <div class="logo">
+        <span>IMMORTAL ARCHIVES</span>
+        <img src="img/Singleletterlogo.png" alt="logo">
+      </div>
+      <nav>
+        <ul>
+         <li><a href="home.html" class="active">HOME</a></li>
+          <li><a href="classes.html">CLASSES</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="hero">
+    <img src="img/LogoDi.webp" alt="Diablo Immortal Logo" class="hero-logo">
+    <h1>MASTER EVERY CLASS IN DIABLO IMMORTAL</h1>
+    <p class="link-highlight">DIABLO IMMORTAL CURRENT AVAILABLE CLASSES</p>
+  </section>
+
+  
+  <section class="classes">
+    <div class="card">
+      <img src="img/BarbarianHome.jpg" alt="Barbarian">
+      <h2>BARBARIAN</h2>
+      <p>Brutal melee warrior with high strength and devastating attacks.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/CrusaderHome.webp" alt="Crusader">
+      <h2>CRUSADER</h2>
+      <p>Holy knight with powerful defenses and radiant justice.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/DemonHunterHome.jpg" alt="Demon Hunter">
+      <h2>DEMON HUNTER</h2>
+      <p>Agile ranged fighter with deadly precision and traps.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/NecromancerHome.webp" alt="Necromancer">
+      <h2>NECROMANCER</h2>
+      <p>Master of death magic, summoning minions and dark powers.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/MonkHome.jpg" alt="Monk">
+      <h2>MONK</h2>
+      <p>Swift martial artist with sacred skills and mobility.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/WizardHome.jpg" alt="Wizard">
+      <h2>WIZARD</h2>
+      <p>Master of arcane power, controlling elements with spells.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/BloodKnightHome.jpg" alt="Blood Knight">
+      <h2>BLOOD KNIGHT</h2>
+      <p>A vampire hybrid warrior who harnesses blood magic.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/DruidHome.avif" alt="Druid">
+      <h2>DRUID</h2>
+      <p>A shapeshifting guardian of nature who can transform into beasts and summon forest creatures.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/TempestHome.avif" alt="Tempest">
+      <h2>TEMPEST</h2>
+      <p>A storm-wielding warrior who fights harnessing the speed of wind and waves.</p>
+    </div>
+  </section>
+
+  
+  <footer>
+    <p>FAN PROJECT © 2025 | DIABLO IMMORTAL IS PROPERTY OF BLIZZARD ENTERTAINMENT</p>
+  </footer>
+
+
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+    
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+      toggle.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
